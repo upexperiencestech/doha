@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "whoItsFor": "Who It's For",
+    "whyDoha": "Why Doha",
+    "whoWeAre": "Who We Are",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "faqs": "FAQs"
+  },
+  "faq": {
+    "bgAlt": "Background gradient",
+    "groupAlt": "Decorative group",
+    "groupSelfieAlt": "Group selfie illustration",
+    "decorativeAlt": "Decorative element",
+    "heading": {
+      "part1": "Turn your ",
+      "part2": "Brazil–Australia connection",
+      "part3": " into an unforgettable experience"
+    },
+    "description": {
+      "part1": "Discover Doha,",
+      "part2": " host city of the FIFA World Cup 2022 and one of the most surprising destinations in the Middle East. The perfect stop to rest, explore a fascinating culture, admire a futuristic skyline, and recharge your energy before continuing ",
+      "part3": "to your final destination."
+    },
+    "button": "Reserve Your Stay"
+  },
+  "whoItsFor": {
+    "heroTitle": "A strategic pause along the way",
+    "heroSubtitle": "Doha Stopover combines rest, cultural adaptation, and unique experiences — all with comfort, safety, and professional support from Brazilian guides.",
+    "sectionTitle": "Who is the Stopover for?",
+    "studentIntro": "Ideal for exchange students, the stopover helps reduce jet lag and ease cultural adaptation. Always accompanied by teachers and Brazilian guides, students will experience:",
+    "studentFeatures1": "Accommodation, transfers, and two days of unforgettable experiences.",
+    "studentFeatures2": "Visit Education City, one of the largest educational hubs in the world.",
+    "studentFeatures3": "Tours to the National Library, Qatar National Museum, and iconic city landmarks.",
+    "studentFeatures4": "Visit the modern stadiums of the FIFA World Cup 2022.",
+    "studentFeatures5": "24-hour support, with Portuguese-speaking supervision and local assistance.",
+    "studentFeatures6": "Activities in small groups with classmates, ensuring comfort and safety.",
+    "travelerIntro": "Perfect for those traveling to Australia to visit children or travelers who want to turn their connection into a discovery opportunity. With exclusive itineraries, you will enjoy:",
+    "travelerFeatures1": "Selected accommodations and private transfers.",
+    "travelerFeatures2": "Personalized city tours with licensed Brazilian and Qatari guides.",
+    "travelerFeatures3": "Portuguese-speaking support throughout the stay.",
+    "travelerFeatures4": "Free time for shopping, dining, and leisure."
+  },
+  "whyDoha": {
+    "title": "Why Doha?",
+    "reason1": "Recharge your energy after the long Brazil–Australia journey and feel ready for the next adventure.",
+    "reason2": "Immerse yourself in the excitement of FIFA World Cup stadiums, futuristic architecture, vibrant souks, and delicious Middle Eastern cuisine.",
+    "reason3": "Enjoy safety, comfort, and personalized support with Brazilian-speaking guides.",
+    "reason4": "Make the most of your connection with a smart and memorable stopover before your final destination."
+  },
+  "whoWeAre": {
+    "title": "Who We Are?",
+    "text1": "Founded in 2016, ",
+    "text2": "Up Experiences",
+    "text3": " is led by ",
+    "text4": "Flavia Prista",
+    "text5": ", who began her career at the iconic ",
+    "text6": "Copacabana Palace Hotel",
+    "text7": " and worked as ",
+    "text8": "Accommodation Specialist during the Qatar World Cup. Today, with a team of experienced professionals, tourism experts, and educators passionate about hospitality, we offer personalized itineraries, complete logistics, and Portuguese-speaking support throughout your entire trip."
+  },
+  "services": {
+    "title": "Our Services",
+    "transfer": "Transfer in/out",
+    "guides": "Brazilian Guides",
+    "airTickets": "Air Tickets",
+    "culturalExperiences": "Cultural Experiences & Tours",
+    "accommodation": "Accommodation",
+    "travelInsurance": "Travel Insurance"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "miriam": {
+      "name": "Miriam Sartori Camilo",
+      "text": "\"What a privilege to meet our guide Oscar. We had unforgettable moments with him in Doha. Flavia, thank you so much for your attention, kindness, and assistance. Absolutely top-notch!\""
+    },
+    "heide": {
+      "name": "Heide Almeida",
+      "text": "\"Flavia, our vacation was incredible. We loved Doha, and at night the city is even more beautiful—you were right. The guide was very attentive and took us everywhere we wanted to go. Thank you so much for everything.\""
+    },
+    "luiz": {
+      "name": "Luiz Gustavo Ortega",
+      "text": "\"The stopover in Doha let me discover this amazing city and visit the World Cup stadiums in Qatar. It was the perfect break to explore and relax before arriving in Australia for my English course. I highly recommend this stopover to anyone traveling between Brazil and Australia to recharge before reaching their destination.\""
+    }
+  },
+  "founder": {
+    "practices_sports": "Practices sports daily",
+    "aquarius": "Aquarius, innovative and visionary",
+    "lived_places": "Born in Rio de Janeiro and has lived in California, Grenoble, and Doha",
+    "mother": "Passionate mother of Carolina and Julia – and loves children",
+    "languages": "Brazilian, fluent in English, French, and Spanish",
+    "career_start": "Started her career at the iconic Copacabana Palace Hotel",
+    "founded_up": "Founded Up to support the Meghalaya football delegation during the Rio 2016 Olympic Games",
+    "qatar_cup": "Accommodation Specialist at the FIFA World Cup in Qatar, 2022",
+    "education": "Graduated in Tourism with an MBA in Business Management",
+    "about_heading": "About the Founder"
+  },
+  "faqestion": {
+    "heading": "Frequently Asked Questions",
+    "visa_doha_question": "Do I need a visa for the Doha stopover?",
+    "visa_doha_answer": "Brazilians do not need a pre-arranged visa. Entry is facilitated upon arrival in Qatar.",
+    "visa_australia_question": "Do I need a visa for Australia?",
+    "visa_australia_answer": "Yes. Up Experiences works with specialized partners who have helped hundreds of students obtain Australian visas with a high approval rate, ensuring safety and peace of mind.",
+    "schools_question": "Do you work with schools in Australia?",
+    "schools_answer": "Yes. We partner with English language schools and professional courses recognized for their academic quality and infrastructure. We can advise and recommend the most suitable school for your profile.",
+    "connection_time_question": "What is the minimum connection time needed for the Doha stopover?",
+    "connection_time_answer": "We recommend at least 2 full days, but we also offer itineraries adapted for 24-hour connections.",
+    "portuguese_guides_question": "Do the guides speak Portuguese?",
+    "portuguese_guides_answer": "Yes, all tours and support are conducted by Brazilian professionals and a bilingual local team.",
+    "safety_question": "Is it safe to travel alone to Doha?",
+    "safety_answer": "Absolutely. Doha is considered one of the safest cities in the world, and you will have 24-hour support from our team.",
+    "personalized_itineraries_question": "Are there personalized itineraries or group departures?",
+    "personalized_itineraries_answer": "Yes. You can choose personalized itineraries, adapted to your time and interests, or join pre-scheduled group departures. Contact our team to confirm upcoming dates."
+  },
+  "contactus": {
+    "heading": "Contact Us",
+    "phone_number_label": "Phone Number",
+    "phone_brazil": "+55 21 98783 8986",
+    "phone_uae": "+971 54 788 1002",
+    "website_label": "Website",
+    "website_url": "www.upexperiences.com.br",
+    "instagram_label": "Instagram",
+    "instagram_handle": "@up.experiences",
+    "live_your_up_moment": "Live your Up moment",
+    "locations": "Rio de Janeiro • Doha • Dubai • Abu Dhabi",
+    "contact_button": "Contact Us"
+  },
+  "contactmodal": {
+    "heading": "Contact Us",
+    "description": "Whether you need help with your booking, have a special request, or just want to know more about our services — we're here for you.",
+    "placeholder_name": "Name",
+    "placeholder_phone": "Phone Number",
+    "placeholder_email": "Email Address",
+    "placeholder_message": "Message",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "success_message": "Thanks — your message was sent!",
+    "error_fill_all_fields": "Please fill out all fields.",
+    "error_send": "Failed to send the message. Please try again later."
+  },
+  "bookstay": {
+    "heading": "Get 20% Off Your First Stay",
+    "description": "Book your first stay now and enjoy 20% off during your layover in Doha. Limited-time student offer!",
+    "button": "Book Your Stay Now"
+  },
+  "footer": {
+    "newsletterText": "Stay ahead with the latest updates—subscribe to our newsletter today!",
+    "emailPlaceholder": "Email address",
+    "subscribeButton": "Subscribe",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact us",
+    "links": {
+      "whyDoha": "Why Doha",
+      "whoItsFor": "Who It's For",
+      "whoWeAre": "Who We Are",
+      "services": "Services",
+      "testimonials": "Testimonials",
+      "faqs": "FAQs"
+    },
+    "copyright": "© 2025 Up Experiences. All rights reserved.",
+    "subscribeError": "Please enter a valid email.",
+    "subscribeSuccess": "Subscribed successfully!",
+    "subscribeFailed": "Failed to subscribe. Please try again later.",
+    "subscribing": "Subscribing..."
+  }
+}

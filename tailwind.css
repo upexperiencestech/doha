@@ -1,0 +1,393 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+@font-face {
+  font-family: "Orkney-Light";
+  src: url("/fonts/orkney/orkney-light.woff") format("woff"),
+    url("/fonts/orkney/orkney-light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Orkney-Regular";
+  src: url("/fonts/orkney/orkney-regular.woff") format("woff"),
+    url("/fonts/orkney/orkney-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Orkney-Medium";
+  src: url("/fonts/orkney/orkney-medium.woff") format("woff"),
+    url("/fonts/orkney/orkney-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Orkney-Bold";
+  src: url("/fonts/orkney/orkney-bold.woff") format("woff"),
+    url("/fonts/orkney/orkney-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Default Family (optional shortcut) */
+@font-face {
+  font-family: "Orkney";
+  src: url("/fonts/orkney/orkney-regular.woff") format("woff"),
+    url("/fonts/orkney/orkney-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --display-large-semibold-font-family: "c", Helvetica;
+  --display-large-semibold-font-size: 52px;
+  --display-large-semibold-font-style: normal;
+  --display-large-semibold-font-weight: 600;
+  --display-large-semibold-letter-spacing: 0px;
+  --display-large-semibold-line-height: normal;
+  --display-small-bold-font-family: "Orkney", Helvetica;
+  --display-small-bold-font-size: 44px;
+  --display-small-bold-font-style: normal;
+  --display-small-bold-font-weight: 700;
+  --display-small-bold-letter-spacing: 0px;
+  --display-small-bold-line-height: normal;
+  --headings-desktop-h1-bold-font-family: "Orkney", Helvetica;
+  --headings-desktop-h1-bold-font-size: 40px;
+  --headings-desktop-h1-bold-font-style: normal;
+  --headings-desktop-h1-bold-font-weight: 700;
+  --headings-desktop-h1-bold-letter-spacing: 0px;
+  --headings-desktop-h1-bold-line-height: normal;
+  --headings-desktop-h2-bold-font-family: "Orkney", Helvetica;
+  --headings-desktop-h2-bold-font-size: 36px;
+  --headings-desktop-h2-bold-font-style: normal;
+  --headings-desktop-h2-bold-font-weight: 700;
+  --headings-desktop-h2-bold-letter-spacing: 0px;
+  --headings-desktop-h2-bold-line-height: normal;
+  --headings-desktop-h4-bold-font-family: "Orkney", Helvetica;
+  --headings-desktop-h4-bold-font-size: 28px;
+  --headings-desktop-h4-bold-font-style: normal;
+  --headings-desktop-h4-bold-font-weight: 700;
+  --headings-desktop-h4-bold-letter-spacing: 0px;
+  --headings-desktop-h4-bold-line-height: normal;
+  --headings-desktop-h5-semibold-font-family: "Orkney", Helvetica;
+  --headings-desktop-h5-semibold-font-size: 24px;
+  --headings-desktop-h5-semibold-font-style: normal;
+  --headings-desktop-h5-semibold-font-weight: 700;
+  --headings-desktop-h5-semibold-letter-spacing: 0px;
+  --headings-desktop-h5-semibold-line-height: normal;
+  --headings-desktop-h6-bold-font-family: "Orkney", Helvetica;
+  --headings-desktop-h6-bold-font-size: 20px;
+  --headings-desktop-h6-bold-font-style: normal;
+  --headings-desktop-h6-bold-font-weight: 700;
+  --headings-desktop-h6-bold-letter-spacing: 0px;
+  --headings-desktop-h6-bold-line-height: normal;
+  --headings-desktop-h6-regular-font-family: "c", Helvetica;
+  --headings-desktop-h6-regular-font-size: 20px;
+  --headings-desktop-h6-regular-font-style: normal;
+  --headings-desktop-h6-regular-font-weight: 400;
+  --headings-desktop-h6-regular-letter-spacing: 0px;
+  --headings-desktop-h6-regular-line-height: normal;
+  --headings-desktop-h6-semibold-font-family: "Orkney", Helvetica;
+  --headings-desktop-h6-semibold-font-size: 20px;
+  --headings-desktop-h6-semibold-font-style: normal;
+  --headings-desktop-h6-semibold-font-weight: 700;
+  --headings-desktop-h6-semibold-letter-spacing: 0px;
+  --headings-desktop-h6-semibold-line-height: normal;
+  --headings-mobile-h4-medium-font-family: "Orkney", Helvetica;
+  --headings-mobile-h4-medium-font-size: 24px;
+  --headings-mobile-h4-medium-font-style: normal;
+  --headings-mobile-h4-medium-font-weight: 500;
+  --headings-mobile-h4-medium-letter-spacing: 0px;
+  --headings-mobile-h4-medium-line-height: normal;
+  --headings-mobile-h5-regular-font-family: "Orkney", Helvetica;
+  --headings-mobile-h5-regular-font-size: 20px;
+  --headings-mobile-h5-regular-font-style: normal;
+  --headings-mobile-h5-regular-font-weight: 400;
+  --headings-mobile-h5-regular-letter-spacing: 0px;
+  --headings-mobile-h5-regular-line-height: normal;
+  --headings-mobile-h5-semibold-font-family: "Orkney", Helvetica;
+  --headings-mobile-h5-semibold-font-size: 20px;
+  --headings-mobile-h5-semibold-font-style: normal;
+  --headings-mobile-h5-semibold-font-weight: 700;
+  --headings-mobile-h5-semibold-letter-spacing: 0px;
+  --headings-mobile-h5-semibold-line-height: normal;
+  --headings-mobile-h6-bold-font-family: "Orkney", Helvetica;
+  --headings-mobile-h6-bold-font-size: 18px;
+  --headings-mobile-h6-bold-font-style: normal;
+  --headings-mobile-h6-bold-font-weight: 700;
+  --headings-mobile-h6-bold-letter-spacing: 0px;
+  --headings-mobile-h6-bold-line-height: normal;
+  --headings-mobile-h6-regular-font-family: "Orkney", Helvetica;
+  --headings-mobile-h6-regular-font-size: 18px;
+  --headings-mobile-h6-regular-font-style: normal;
+  --headings-mobile-h6-regular-font-weight: 400;
+  --headings-mobile-h6-regular-letter-spacing: 0px;
+  --headings-mobile-h6-regular-line-height: normal;
+  --headings-mobile-h6-semibold-font-family: "Bricolage Grotesque", Helvetica;
+  --headings-mobile-h6-semibold-font-size: 18px;
+  --headings-mobile-h6-semibold-font-style: normal;
+  --headings-mobile-h6-semibold-font-weight: 600;
+  --headings-mobile-h6-semibold-letter-spacing: 0px;
+  --headings-mobile-h6-semibold-line-height: normal;
+  --mizko-s: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
+  --paragraph-medium-medium-font-family: "Orkney", Helvetica;
+  --paragraph-medium-medium-font-size: 16px;
+  --paragraph-medium-medium-font-style: normal;
+  --paragraph-medium-medium-font-weight: 500;
+  --paragraph-medium-medium-letter-spacing: 0px;
+  --paragraph-medium-medium-line-height: 24px;
+  --paragraph-medium-regular-font-family: "Bricolage Grotesque", Helvetica;
+  --paragraph-medium-regular-font-size: 16px;
+  --paragraph-medium-regular-font-style: normal;
+  --paragraph-medium-regular-font-weight: 400;
+  --paragraph-medium-regular-letter-spacing: 0px;
+  --paragraph-medium-regular-line-height: 24px;
+  --paragraph-medium-semibold-font-family: "Orkney", Helvetica;
+  --paragraph-medium-semibold-font-size: 16px;
+  --paragraph-medium-semibold-font-style: normal;
+  --paragraph-medium-semibold-font-weight: 700;
+  --paragraph-medium-semibold-letter-spacing: 0px;
+  --paragraph-medium-semibold-line-height: 24px;
+  --paragraph-small-regular-font-family: "Bricolage Grotesque", Helvetica;
+  --paragraph-small-regular-font-size: 14px;
+  --paragraph-small-regular-font-style: normal;
+  --paragraph-small-regular-font-weight: 400;
+  --paragraph-small-regular-letter-spacing: 0px;
+  --paragraph-small-regular-line-height: 20px;
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.react-tel-input .form-control {
+  height: 40px !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: solid #f7f7f7 !important;
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: "Orkney-Regular", Helvetica, Arial, sans-serif;
+  color: #a3a3a3;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 92% !important;
+  min-width: 0;
+  margin-left: 30px !important;
+}
+.react-tel-input .selected-flag {
+  background-color: #fff;
+  border: solid #f7f7f7;
+  width: 67px !important;
+  padding: 0px 0px 0px 20px !important;
+}
+.mainphoneinput {
+  margin-left: 32px;
+  color: black !important;
+  font-family: "Orkney-Regular", Helvetica;
+}
+.arrow {
+  margin-left: 8px;
+}
